@@ -24,7 +24,7 @@ public class Contact {
     }
 
     // g
-    // Getters and setters
+    // Getters and Setters
     public String getFirstName() {
         return firstName;
     }

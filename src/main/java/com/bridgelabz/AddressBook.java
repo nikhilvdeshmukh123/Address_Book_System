@@ -59,4 +59,27 @@ public class AddressBook {
             editContact();
         }
     }
+
+    //Method to delete contact
+    public void deleteContact() {
+        System.out.println("Enter original first name for verification:");
+        String deleteName = scan.next();
+        // If firstName equals to Entered name
+        if (deleteName.equals(contact.getFirstName())) {
+            contact.setFirstName(null);
+            contact.setLastName(null);
+            contact.setMobileNo(null);
+            contact.setAddress(null);
+            contact.setCity(null);
+            contact.setState(null);
+            contact.setZip(null);
+            contact.setEmail(null);
+            System.out.println("Contact deleted successfully");
+            // If firstName not equals to Entered name
+        } else {
+            System.out.println("Invalid first name");
+            System.out.println("Please Enter valid first name");
+            deleteContact();
+        }
+    }
 }
