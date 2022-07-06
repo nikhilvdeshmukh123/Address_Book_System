@@ -88,7 +88,7 @@ public class Contact {
         this.email = email;
     }
 
-    // toString
+    // toString nethod
     @Override
     public String toString() {
         return "Contact{" +

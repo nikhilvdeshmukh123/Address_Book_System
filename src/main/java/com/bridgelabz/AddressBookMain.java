@@ -3,8 +3,7 @@ package com.bridgelabz;
 import java.util.Scanner;
 /*
  * @author: Nikhil Deshmukh
- * Ability to create a Contacts in Address Book with first and last names, address,
- * city, state, zip, phone number and email...
+ * Ability to add a new Contact to Address Book.
  */
 public class AddressBookMain {
 
@@ -12,5 +11,6 @@ public class AddressBookMain {
         System.out.println("Welcome to Address Book Program");
         AddressBook addressBook = new AddressBook();
         addressBook.addContact();
+        addressBook.displayContact();
     }
 }
