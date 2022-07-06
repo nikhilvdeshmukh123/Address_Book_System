@@ -3,7 +3,7 @@ package com.bridgelabz;
 import java.util.Scanner;
 /*
  * @author: Nikhil Deshmukh
- * Ability to add a new Contact to Address Book.
+ * Ability to edit existing contact person using their
  */
 public class AddressBookMain {
 
@@ -12,5 +12,6 @@ public class AddressBookMain {
         AddressBook addressBook = new AddressBook();
         addressBook.addContact();
         addressBook.displayContact();
+        addressBook.editContact();
     }
 }

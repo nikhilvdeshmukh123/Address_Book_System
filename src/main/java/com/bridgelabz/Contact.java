@@ -23,7 +23,8 @@ public class Contact {
         this.email = email;
     }
 
-    // getters and setters
+    // g
+    // Getters and setters
     public String getFirstName() {
         return firstName;
     }
